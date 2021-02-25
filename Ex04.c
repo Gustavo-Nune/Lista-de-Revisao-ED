@@ -8,11 +8,6 @@ vetor.
 #include <stdlib.h>
 #include <stdio.h>
 
-int lerVetor(int *vet)
-{
-
-
-}
 
 void main()
 {
@@ -26,7 +21,6 @@ void main()
   for (size_t i = 0; i < n; i++) {
     printf("%d\n",vetor[i] );
   }
-//  lerVetor(&vetor,n);
 
   free(vetor);
 }
